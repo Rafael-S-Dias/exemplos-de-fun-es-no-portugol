@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
-    // Vari·veis
+    // Vari√°veis
     real numeroUm, numeroDois, numeroTres, maiorNumero, menorNumero
 
-    // SolicitaÁ„o
+    // Solicita√ß√£o
     escreva("Escreva o primeiro numero desejado: ")
     leia(numeroUm)
 
@@ -30,12 +30,12 @@ programa {
       menorNumero = numeroTres
     }
 
-    // VerificaÁ„o
+    // Verifica√ß√£o
     limpa()
     escreva("============= EXIBINDO RESULTADOS =================")
     escreva("\nEsses foram os numeros selecionados: ", numeroUm, ", ", numeroDois, " e ", numeroTres, ".")    
-    escreva("\nO maior numero dentre eles È: ", maiorNumero)
-    escreva("\nE o menor numero entre eles È: ", menorNumero)
+    escreva("\nO maior numero dentre eles √©: ", maiorNumero)
+    escreva("\nE o menor numero entre eles √©: ", menorNumero)
     escreva("\n ===================================================================")
   }
 }
