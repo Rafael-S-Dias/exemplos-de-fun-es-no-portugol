@@ -1,13 +1,13 @@
 programa {
   funcao inicio() {
-   // Descrição das varíaveis 
+   // DescriÃ§Ã£o das varÃ­aveis 
     inteiro primeiroNumero, segundoNumero, soma, produto, menorValor, maiorValor
     real media
 
-   //Solicitação
-    escreva("Digite o primeiro número: ")
+   //SolicitaÃ§Ã£o
+    escreva("Digite o primeiro nÃºmero: ")
     leia(primeiroNumero)
-    escreva("Digite o segundo número: ")
+    escreva("Digite o segundo nÃºmero: ")
     leia(segundoNumero)  
 
    // Calcular
@@ -26,11 +26,11 @@ programa {
    // Exibindo resultados
    limpa()
    escreva("======== EXIBINDO RESULTADOS ==========")
-   escreva("\nA soma dos numeros é: ", soma)
-   escreva("\nO produto desses numeros é: ", produto)
-   escreva("\nA media é: ", media)
-   escreva("\nO maior valor entre os números é: ", maiorValor)
-   escreva("\nO menor valor entre os números é: ", menorValor)  
+   escreva("\nA soma dos numeros Ã©: ", soma)
+   escreva("\nO produto desses numeros Ã©: ", produto)
+   escreva("\nA media Ã©: ", media)
+   escreva("\nO maior valor entre os nÃºmeros Ã©: ", maiorValor)
+   escreva("\nO menor valor entre os nÃºmeros Ã©: ", menorValor)  
    escreva("\n============================================================")
    
    }
